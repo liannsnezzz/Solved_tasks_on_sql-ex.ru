@@ -9,3 +9,11 @@ SELECT 	model
        ,hd
 FROM PC	
 WHERE price < 500	
+
+       Задание 2
+Найдите производителей принтеров. 
+Вывести: maker
+
+SELECT distinct maker
+FROM Product
+WHERE type = 'Printer'
